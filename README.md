@@ -68,13 +68,13 @@ The server will start at http://127.0.0.1:8000. The `--reload` flag ensures the 
 ### 4. Test the /url-parser Endpoint
 To parse and store embeddings from a webpage, use the `/url-parser` endpoint. For example, you can use the following curl command:
 ```bash
-curl -X POST "http://127.0.0.1:8000/url-parser" -H "Content-Type: application/json" -d "{"url": "https://en.wikipedia.org/wiki/Cristiano_Ronaldo"}"
+curl -X POST "http://127.0.0.1:8000/url-parser" -H "Content-Type: application/json" -d "{\"url\": \"https://en.wikipedia.org/wiki/Cristiano_Ronaldo\"}"
 ```
 
 ### 5. Test the /query Endpoint
 After storing the embeddings, you can query them using the `/query` endpoint. For example:
 ```bash
-curl -X POST "http://127.0.0.1:8000/query" -H "Content-Type: application/json" -d "{"query": "Cr7 biography"}"
+curl -X POST "http://127.0.0.1:8000/query" -H "Content-Type: application/json" -d "{\"query\": \"Cr7 biography\"}"
 ```
 
 ### 6. Using Postman or Any HTTP Client
