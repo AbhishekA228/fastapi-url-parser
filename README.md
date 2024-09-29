@@ -47,7 +47,7 @@ fastapi-url-parser/
 
 ### 1. Clone the Repository and Set Up the Environment
 ```bash
-https://github.com/AbhishekA228/fastapi-url-parser.git
+git clone https://github.com/AbhishekA228/fastapi-url-parser.git
 cd fastapi-url-parser
 ```
 
